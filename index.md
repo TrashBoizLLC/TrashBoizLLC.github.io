@@ -19,7 +19,7 @@ This application allows users to create a centralized server as well as unique c
 * Create unique clients.
 * Adjust collision difficulty.
 * Adjust reward amount.
-* Client to Client crypto currency trading.
+* Client to client crypto currency trading.
 * Transaction logging  
 * Session Tracking
 
