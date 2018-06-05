@@ -9,6 +9,7 @@
 
 # About Trash Coin 
 
+Trash Coin is an attempt at designing and implementing 3 popular technology topics into one application. The Trash Coin Project looks at Client / Server interactions, Block Chain frameworks, and  data hashing algorithms. 
 
 # Features
 
