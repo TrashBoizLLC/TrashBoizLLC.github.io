@@ -25,7 +25,9 @@ This application allows users to create a centralized server as well as unique c
 
 # Developer Guide
 
-<font color="red"> Warning!!! Project was designed to run on local host on a unix environment. </font>
+<font color="red"> Warning!!! Project was designed to run on localhost on a unix environment. </font>
+
+Download [TrashCoin](https://github.com/TrashBoizLLC/TrashCoin) application. 
 
 # Application Design
 
