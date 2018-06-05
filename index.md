@@ -23,9 +23,9 @@ This application allows users to create a centralized server as well as unique c
 * Transaction logging  
 * Session Tracking
 
-# Guided Tour
-
 # Developer Guide
+
+<font color="red"> Warning!!! Project was designed to run on local host on a unix environment. </font>
 
 # Application Design
 
