@@ -15,6 +15,14 @@ This application allows users to create a centralized server as well as unique c
 
 # Features
 
+* Create centralized block chain server.
+* Create unique clients.
+* Adjust collision difficulty.
+* Adjust reward amount.
+* Client to Client crypto currency trading.
+* Transaction logging  
+* Session Tracking
+
 # Guided Tour
 
 # Developer Guide
