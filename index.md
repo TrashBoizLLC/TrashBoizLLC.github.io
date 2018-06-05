@@ -29,6 +29,10 @@ This application allows users to create a centralized server as well as unique c
 
 Clone or Download [TrashCoin](https://github.com/TrashBoizLLC/TrashCoin) application. 
 
+## Creating Server
+
+## Creating Client
+
 # Application Design
 
 ## Directory structure
