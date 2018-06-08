@@ -97,3 +97,4 @@ LoginLogoutLog.txt # contains times and dates of client connections
 StringUtil.java # Applies SHA256 to a string and returns the result
 TrashServer.txt # Contains the main function for the server application
 ```
+Maintained by <a href="https://github.com/TrashBoizLLC">TrashBois LLC</a>
