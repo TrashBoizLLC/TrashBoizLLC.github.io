@@ -25,13 +25,48 @@ This application allows users to create a centralized server as well as unique c
 
 # Developer Guide
 
-<font color="red"> Warning!!! Project was designed to run on localhost on a unix environment. </font>
+<font color="red"> Warning!!! Project was designed to run on localhost on a unix environment.
+Server must be running before Client</font>
 
 Clone or Download the [TrashCoin](https://github.com/TrashBoizLLC/TrashCoin) application. 
 
 ## Creating Server
 
+Go to Server directory 
+
+```
+$ cd */TrashCoin/Server
+```
+
+Compile TrashServer.java using Xlint
+
+```
+$ javac TrashServer.java -Xlint 
+```
+
+Run TrashCoin Server
+```
+java TrashServer
+```
+Server will begin, and default to a set port. Port can be changed by going into TrashServer.java and manually changing the port.
+
 ## Creating Client
+
+Go to Client directory 
+
+```
+$ cd */TrashCoin/Client
+```
+
+Compile TrashClient.java using Xlint
+
+```
+$ javac TrashClient.java -Xlint 
+```
+Run TrashCoin Client
+```
+java TrashClient
+```
 
 # Application Design
 
