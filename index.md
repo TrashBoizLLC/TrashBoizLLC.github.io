@@ -46,7 +46,7 @@ $ javac TrashServer.java -Xlint
 
 Run TrashCoin Server
 ```
-java TrashServer
+$ java TrashServer
 ```
 Server will begin, and default to a set port. Port can be changed by going into TrashServer.java and manually changing the port.
 
@@ -72,3 +72,28 @@ java TrashClient
 
 ## Directory structure
 
+The top-level directory structure contains:
+```
+Client/     # Contains client application sources
+Server/     # Contains server application sources
+```
+This structure separates the necessary application sources for both the server and the client applications. 
+
+The Client/ directory has the following top-level structure:
+```
+ClientKeys/ # Contains text file copies of client keys
+CreateKeys.java # Code to create RSA key pairs
+MineBlock.java # Code to guess collisions based on a set difficulty
+StringUtil.java # Applies SHA256 to a string and returns the result
+TrashClient.java # Main function of application
+```
+
+The Server/ directory has the following top-level structure:
+```
+ClientPubKey/ # Contains copy of clients public keys
+Block.java # Class of object block
+LoggingFunc.java # Contains code that logs a clients connections
+LoginLogoutLog.txt # contains times and dates of client connections
+StringUtil.java # Applies SHA256 to a string and returns the result
+TrashServer.txt # Contains the main function for the server application
+```
